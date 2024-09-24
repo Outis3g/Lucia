@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('https://lh3.googleusercontent.com/fife/ALs6j_G6lcYZJ78z4ltgfQbtuphiaq74xgmsZ3iXuK9slg2sdoq5YfPcXCUwQHB1FhvM5H-D8OvLXF4SdjNAd8sh1F3oN7mepqxAy_I42N4yw8hJDEaUZygayKOUs4QexEIqI5PhS-3vRQo-m7Mt46UIM7wdjaJzmHqGhEE4EwDbFnDKeNZ4JABMjz8_R2kpZhFwMwoLtFh0IJJZZTHhe0Y3fjUih-vmMAvNC3vLstUchGo2LIvUxyOY7kEJjBVl_SNbYuv_fYkMACfsDlIzh-xTeFLkbuK9aB7s2giRh8sjKtNco9h8H_KoaROzGbCmEShvk99AKkoqkV_XoNOhwO41jOSj8Rr0g0WPIXT_bdYoJXFpqgynHx9y2RoVyWKqaFoM3oZ658xboN1UiajsmqM93oAOe5OEkcT32evX4wAk1jiN1irorSdnxI4d4X94_BcE5S7fi8WwToRysn69FSq_QlimGusBF4eiedLqz1nNz7gqycZAnXIhtk9UJbaZvWy0xIIW5tI01EFbLRORon4WIAJfL5a9JE-wYH8VFT5v6HBYWQHztv2FRkCAdTu7HUfLV8YFagmF8-w54xXZAMWsAcymzE2pNLjLK0G-jVXoTFRJ4Yw7heQvSptBEgLV-lbBlzMJXiZApJxZF_H_A3f6e7zmj72ia2suTDNFmGuvl_ZfXJoBiXGQgQDTJqxkzvBCCS-QnXu5wv0vIEKpt0GU4vt8ZTmy7ibULgvWR3nSy3yHEUvrRsTvWkkQk8EHwbw2r9X6Fst8jZxNBjE3sdhWuOspyRNLKf6DP4VDWkwyMrRWUvFnngMDsm4kUMQIf27FOQ6NL34c6xLwymw_C5S5E8428vtMxKVo8OB35kpyTqQTkd2KKTgWwdepdnhd0AJRDBZnYVrHGipXoeSfWhM0tmtfv10NDT3pamTyPDyxsXs6drgfqIr234yo3S4VdQ0tnoLs6LGoChJjfdGcLb66IFYxbR7j1LkivwNyHfZAmHUP7pub2FzRGCYJqtYq19kk-EhjwcRERmcxBX_ALjmPaNmIlCl8ApWazY4GcCkgAwACmOelSwk9FtiAAogV3NWDTLs4NazNBkTsEKpZu0l9OK3Fbwyx2gqZ2S1y3BYXHIboqd3t0Az7oods7fbzF1DENskRLovL5V-sBurPnrnWt-IGLD1vCrqG5p_6awW-it7ssONsEhF8Z-LEdq5ASL7e7wO7F25OM-GWuPLeEGFV78ViWMaBEw8j0gg4UK9kXPt-sqKi3kKB_mHOlo_COLK_Q2KlMaGNOdFM-7cQX7mXj-oXcBcTYFttcGn4LQMSS90ji72R21Bsz6Xr8kRUrvyCpv1MdrUiwzXRluwSmyYaTRh99WcKth7EeoifkH-P9ut-vPwn038zkgAhVHJAkLWCix17YKUNobTQ_A0urPF1putzL9zaVtlNdREiICMf_SPyo3cb0C93WaR0z7B_PKBnuKLC9cYMvwnR70z4yFuS4qt2gNjEkyIrHvlNuxcluUVlccby1HVCdQjH7IPJovAEK_h828siUXrNkofsDnHktIPSGABWNt5fPA0MrXKa06Gc2ETburbuofn3Zb7qaoqQHqr2dyIKe4DBYAdihOSQUHUuTg=w350-h263-p-k-nu');
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: normal;
+    width: 100%;
+}
+header:hover {
+  background:linear-gradient(to right, red, yellow);
+}
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 3);
+    border-radius: 13px;
+    margin-left: 16px;
+    border: none;
+    outline: none;
+    position: relative;
+    background: linear-gradient(to right, purple, red, orange);
+}
+h1 {
+  color: red;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bolder;
+  animation-name: lucy_anthony;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: ease-in;
+}
+@keyframes lucy_anthony {
+  0% {color: red;}
+  40%{color:green;}
+  80%{color: yellow;}
+  100%{color: blue}
+}
+h2 {
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+/* Responsive design */
+.navbar {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+    color: #ff69b4;
+}
+
+.navbar .active {
+    color: #ff69b4;
+}
+    section {
+        margin-bottom: 40px;
+    }
+    
+    .gallery {
+        flex-direction: column;
+    }
+    
+    .gallery img {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+    
+    nav ul {
+        padding: 0;
+    }
+    section {
+        padding: 10px;
+    }
+    
+    h1, h2 {
+        font-size: 26px;
+    }
+    
+@media only screen and (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+    
+    .navbar li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+        padding: 10px;
+    }
+}
+  </style>
+  <script>
+    // Add event listener to nav links
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        // Remove active class from all links
+        document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+        
+        // Add active class to current link
+        link.classList.add('active');
+    });
+});
+function send_msg() {
+  alert("Message sent successfully");
+}
+  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy & Anthony's Wedding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#wedding">Wedding</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="home">
+    <section id="home">
+        <h1 class="lucy_anthony">Lucy & Anthony's Wedding</h1>
+        <p>Join us on our special day!</p>
+    </section>
+    </div>
+    <section id="story">
+        <h2>Our Love Story</h2>
+        <p>Lucy and Anthony met in [Year]...</p>
+    </section>
+    
+    <section id="wedding">
+        <h2>Wedding Details</h2>
+        <p>Date: [Date]</p>
+        <p>Time: [Time]</p>
+        <p>Location: [Location]</p>
+    </section>
+    
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Image 1">
+            <img src="image2.jpg" alt="Image 2">
+            <img src="image3.jpg" alt="Image 3">
+        </div>
+    </section>
+    
+    <section id="rsvp">
+        <h4 style="color: white;font-size: 26px;text-align: center;font-weight: bold;font-family: georgia;">Send us a message<b>...</b></h4>
+        <form>
+            <label for="name"style="color: #ffffff;font-size: 23px;font-family: georgia;font-weight: bold;">Name:</label>
+            <input type="text" id="name" name="name"style="padding: 7px;outline: none;border: none;border-radius: 13px;box-shadow: 2px 1px 13px black;"><br><br>
+            <label for="email"style="color: #ffffff;font-size: 23px;font-family: georgia;font-weight: bold;">Email:</label>
+            <input type="email" id="email" name="email"style="padding: 7px;outline: none;border: none;border-radius: 13px;box-shadow: 2px 1px 13px black;><br><br>
+            <h6><span class="msg">Message:</span></h6>
+            <textarea id="message" name="message"style="padding: 40px;margin-top: 13px;outline: none;border: none;border-radius: 13px;box-shadow: 2px 6px 23px black;"></textarea><br><br>
+            <input type="submit" value="Send"style="border: none;outline: none;padding: 9px;text-align: center;width: 30%;border-radius: 1em;font-size: 18px;color: green;font-family: cursive;background: linear-gradient(to right, red, yellow);font-weight: bolder;" onclick="send_msg()">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Lucy & Anthony</p>
+    </footer>
+    
+</body>
+</html>
